@@ -1,0 +1,68 @@
+:root {
+  --maine-title-color: #212121;
+  --maine-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --address-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  background-color: #e5e5e5;
+  font-family: "Roboto", sans-serif;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/*------header------ */
+.header {
+  background-color: #ffffff;
+}
+
+/*--------Logo------*/
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.logo-fisrtpart {
+  color: var(--accent-color);
+}
+.logo-secondpart {
+  color: #000000;
+}
+
+.header-navigation {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-link {
+  color: var(--maine-title-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+
+.contacts-link {
+  color: var(--maine-text-color);
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color);
+}
+
+/*------hero------ */
