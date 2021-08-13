@@ -7,8 +7,9 @@
 }
 
 body {
-  background-color: var(--primary-white-color);
   font-family: "Roboto", sans-serif;
+  color: var(--maine-text-color);
+  background-color: var(--primary-white-color);
 }
 
 .link {
@@ -19,10 +20,11 @@ body {
   list-style: none;
 }
 
-/*------header------ */
-.header {
-  background-color: #ffffff;
+.btn {
+  cursor: pointer;
 }
+
+/*------header------ */
 
 /*--------Logo------*/
 .logo {
@@ -94,8 +96,11 @@ body {
   color: var(--primary-white-color);
 }
 
-
 /*------features------ */
+.features-title {
+  color: var(--maine-title-color);
+}
+
 .features-description {
   font-weight: 700;
   font-size: 14px;
@@ -109,7 +114,6 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--maine-text-color);
 }
 
 /*------what we do------ */
@@ -147,7 +151,6 @@ body {
 }
 
 .team-text {
-  font-weight: normal;
   color: var(--maine-text-color);
 }
 
@@ -175,18 +178,21 @@ body {
 .footer-contacts-link:hover,
 .footer-contacts-link:focus {
   color: var(--accent-color);
+}
 
 /*------------------PORTFOLIO--------------- */
 
 /*------filters------ */
 
+.projects-title {
+  color: var(--maine-title-color);
+}
+
 .filters-button {
   font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 
@@ -207,7 +213,6 @@ body {
 }
 
 .projects-text {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
